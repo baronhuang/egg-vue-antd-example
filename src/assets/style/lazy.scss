@@ -1,0 +1,18 @@
+.lazy-loaded {
+  width: 100%;
+  transition: opacity .5s ease-in;
+  opacity: .5;
+}
+
+.lazy-loaded.lazy-load-progress {
+  filter: blur(5px);
+}
+
+.lazy-loaded.lazy-load-success {
+  opacity: 1;
+}
+
+.lazy-loaded.lazy-load-error {
+  filter: blur(3px) sepia(1);
+  outline: 4px solid red;
+}

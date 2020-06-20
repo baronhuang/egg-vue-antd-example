@@ -1,0 +1,48 @@
+/**
+ * Created on 2019/2/21 0021
+ * @author: ben0721@yeah.net
+ * @desc: 公共的样式文件
+ */
+
+@import "./var";
+
+.page-wrapper {
+  margin: 24px 24px 0;
+  background: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.a-primary-color, .a-link-color {
+  color: $primary-color;
+}
+
+.a-success-color {
+  color: $success-color;
+}
+
+.a-warning-color {
+  color: $warning-color;
+}
+
+.a-error-color {
+  color: $error-color;
+}
+
+.a-heading-color {
+  color: $heading-color;
+}
+
+.a-text-color {
+  color: $text-color;
+}
+
+.a-text-color-secondary {
+  color: $text-color-secondary;
+}
+
+.a-disabled-color {
+  color: $disabled-color;
+}
