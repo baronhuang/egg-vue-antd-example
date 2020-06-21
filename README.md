@@ -14,7 +14,7 @@ $ npm install -g yarn
 
 // 设置yarn的下载源到私服
 
-$ yarn config set registry http://192.168.31.62:4873
+$ yarn config set registry https://registry.npm.taobao.org
 
 // 2.进到你的项目根目录，下载所有依赖包
 $ yarn
@@ -174,5 +174,3 @@ $ npm run build
 - 所有文件名统一使用小驼峰的命名；
 - 访问vuex的state如果不涉及到异步，直接用mutation即可，只有涉及到异步的时候才需要使用action；
              
-## webpack配置'@'映射，直接ctrl+单击鼠标即可进入文件       
-<img width="500" src="http://192.168.30.29/member-npm/member-ant-vue-example/uploads/d22d4fb94d522e7009a916ead73acc9a/image.png"/>
