@@ -7,13 +7,13 @@
       <!--</a>-->
       <!--<a href="https://ant.design/">Ant Design</a>-->
       <!--<a href="https://vue.ant.design/">Vue Antd</a>-->
-      <a href="javascript:;">互联网研发产品中心</a>
-      <a href="javascript:;">用户平台研发部</a>
+      <a href="javascript:;">研发产品中心</a>
+      <a href="javascript:;">XXX研发部</a>
     </div>
     <div class="copyright">
       Copyright
       <a-icon type="copyright"/>
-      2019 <span>广州博鳌纵横网络科技有限公司版权所有</span>
+      2019 <span>XXX网络科技有限公司版权所有</span>
     </div>
   </a-layout-footer>
 </template>
