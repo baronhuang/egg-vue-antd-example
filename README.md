@@ -1,4 +1,4 @@
-# member-ant-vue-example
+# egg-vue-antd-example
 
 > 简介：样例项目采用egg+vue+ant-design-vue来进行开发，egg提供服务器端的服务，可以用来转发接口，接口封装等，
 vue提供前端项目的基本框架，支持vue-router、vuex等，渐进式开发，ant-design-vue作为ant-design的官方vue ui库，
