@@ -20,16 +20,6 @@ module.exports = {
   },
   configureWebpack: config => {
     if (process.env.NODE_ENV === 'production') {
-      // loader在member-egg-core工具包里
-      config.resolveLoader.modules.push(path.join(__dirname, './node_modules/member-egg-core/lib/'));
-      // 加密当前的api域名
-      config.module.rules.push({
-        test: /client\.config\.js$/,
-        loaders: 'api-encrypt-loader',
-        include: [path.join(__dirname, './config')],
-        // 这里可以自定义遍历的变量，默认是['config', 'envConfig']
-        options: { vars: ['config', 'envConfig'] }
-      });
     } else {
       // 为开发环境修改配置...
       // config.plugins.push({
